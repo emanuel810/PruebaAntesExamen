@@ -8,8 +8,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>MERN Render</h1>
-
+      <h1>Haz sido hackeado</h1>
+      <h2>Ve rezandole al de arriba para que no te encuentre nada</h2>
+      <h2>ayayay cuchau</h2>
       <button
         onClick={async () => {
           const res = await fetch(`${URL}/hora`);
